@@ -10,19 +10,19 @@
   <link href="./output.css" rel="stylesheet" />
 </head>
 
-<body>
-  <header class="fixed w-full bg-gray-100">
-    <nav class="bg-inherit border-gray-200 py-2.5 dark:bg-gray-900">
+<body id="page">
+  <header class="fixed w-full" id="header">
+    <nav class="bg-inherit border-gray-200 py-2.5">
       <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
         <a href="#" class="flex items-center">
-          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Cultural Club</span>
+          <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Cultural Club</span>
         </a>
         <div class="flex items-center lg:order-2">
           <a href="/"
             class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Register
             here</a>
           <button data-collapse-toggle="mobile-menu" type="button"
-            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:f focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:f dark:focus:ring-gray-600">
             <span class="sr-only">Open main menu</span>
             <i class="fa-solid fa-bars"></i>
           </button>
@@ -31,20 +31,21 @@
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-white text-gray-700 rounded lg:bg-transparent lg:hover:text-purple-700 lg:p-0 dark:text-white"
+                class="block py-2 pl-3 pr-4 text-white rounded lg:bg-transparent lg:hover:text-purple-700 lg:p-0 dark:text-white"
                 aria-current="page">Home</a>
             </li>
             <li>
               <a href="#event"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Events</a>
+                class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:f lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:f dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Events</a>
             </li>
             <li>
               <a href="#about"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:f lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:f dark:hover:text-whitelg:dark:hover:bg-transparent dark:border-gray-700">About</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Details</a>
+                class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:f lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:f dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">contact
+                us</a>
             </li>
           </ul>
         </div>
@@ -53,14 +54,14 @@
   </header>
 
   <!-- page start -->
-  <section class="bg-white dark:bg-gray-900">
+  <section>
     <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1 id="head"
           class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
           Cultural Fest<br />is here with more fun
         </h1>
-        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+        <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-white">
           It more-or-leking it look like readable English. Many desktop
           publishing packages and web page editors now use Lorem Ipsum as
           their default model text, and a search for 'lorem ipsum' will
@@ -74,9 +75,9 @@
     </div>
   </section>
 
-  <section class="bg-white dark:bg-gray-900">
+  <section>
     <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-      <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+      <div class="grid grid-cols-2 gap-8 text-white sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-white">
         <a href="#dance" class="lg:hover:text-purple-700 ">
           <h1>Dance</h1>
         </a>
@@ -99,13 +100,13 @@
     </div>
   </section>
 
-  <section class="bg-gray-50 dark:bg-gray-800">
+  <section class="f dark:f">
     <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6" id="event">
       <!-- dance section -->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16" id="dance">
         <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/dance.jpeg" alt="feature image 2" />
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             Dance
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -117,15 +118,15 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Group Dance</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Group Dance</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Classical solo</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Classical solo</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Duet</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Duet</span>
             </li>
           </ul>
           <p class="font-light lg:text-xl" id="music">
@@ -137,8 +138,8 @@
 
       <!-- Music section-->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ">
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             Music
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -152,19 +153,19 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Inidan Group Song</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Inidan Group Song</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Western Group Song</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Western Group Song</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Antakshari</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Antakshari</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Battle Of Bands</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Battle Of Bands</span>
             </li>
           </ul>
           <p class="mb-8 font-light lg:text-xl" id="drama">
@@ -179,8 +180,8 @@
       <!-- drama drama section-->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
         <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/drama.jpg" alt="feature image 2" />
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             Drama
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -192,19 +193,19 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Street play</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Street play</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">One Act Play</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">One Act Play</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Mono Act</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Mono Act</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Mime</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Mime</span>
             </li>
           </ul>
           <p class="font-light lg:text-xl" id="art">
@@ -215,8 +216,8 @@
       </div>
       <!-- Art and craft section -->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ">
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             Art And Craft
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -230,23 +231,23 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Face painting</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Face painting</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Rangoli</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Rangoli</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Clay Modelling</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Clay Modelling</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Poster Making</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Poster Making</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Sketching</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Sketching</span>
             </li>
           </ul>
           <p class="mb-8 font-light lg:text-xl" id="literature">
@@ -262,8 +263,8 @@
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
         <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/literature.jpg"
           alt="feature image 2" />
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             Literature
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -275,11 +276,11 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Quiz</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Quiz</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Poetry Recitation</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Poetry Recitation</span>
             </li>
           </ul>
           <p class="font-light lg:text-xl" id="fest">
@@ -290,8 +291,8 @@
       </div>
       <!-- fest section -->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ">
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+        <div class="text-white sm:text-lg dark:text-white">
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-white dark:text-white">
             IT Fest
           </h2>
           <p class="mb-8 font-light lg:text-xl">
@@ -305,29 +306,29 @@
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">It Debate
+              <span class="text-base font-medium leading-tight text-white dark:text-white">It Debate
                 Competition</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Rangoli</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Rangoli</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Brain....</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Brain....</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Gamify-LAN Gaming</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Gamify-LAN Gaming</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Digital Poster
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Digital Poster
                 Presentation</span>
             </li>
             <li class="flex space-x-3">
               <i class="fa-solid fa-tree"></i>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Treasure Hunt</span>
+              <span class="text-base font-medium leading-tight text-white dark:text-white">Treasure Hunt</span>
             </li>
           </ul>
           <p class="mb-8 font-light lg:text-xl" id="literature">
@@ -336,22 +337,22 @@
             aliquid.
           </p>
         </div>
-        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/Fest.jpg"
+        <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/fest.jpg"
           alt="dashboard feature image" />
       </div>
     </div>
   </section>
   <!-- about us -->
-  <section class="bg-white dark:bg-gray-900" id="about">
+  <section id="about">
     <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:display lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
       <div class="mb-8">
         <p class="text-lg font-medium text-purple-600 dark:text-purple-500">
           About Us
         </p>
-        <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
+        <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-white md:text-3xl dark:text-white">
           heading of about us
         </h2>
-        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+        <p class="font-light text-white sm:text-xl dark:text-white">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia asperiores inventore nemo quae ut aliquid
           eum laborum, tempora dolorem adipisci, animi ab amet saepe corrupti fugit earum velit expedita illo.
         </p>
@@ -359,13 +360,13 @@
     </div>
   </section>
 
-  <section class="bg-gray-50 dark:bg-gray-800">
+  <section class="f dark:f">
     <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
       <div class="max-w-screen-sm mx-auto text-center">
-        <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+        <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-white dark:text-white">
           Enjoy a great day
         </h2>
-        <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
+        <p class="mb-6 font-light text-white dark:text-white md:text-lg">
           bla vls dsafkjh asdkfjh
         </p>
         <a href="#"
@@ -375,8 +376,8 @@
     </div>
   </section>
   <!-- footer -->
-  <footer class="bg-white dark:bg-gray-800">
-    <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+  <footer>
+    <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10 text-white">
       <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
         <div>
           <h2>For more, contact _____</h2>

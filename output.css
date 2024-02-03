@@ -20,6 +20,14 @@
   /* 2 */
 }
 
+#header{
+  background: rgba(0, 0, 0,0.6);
+}
+#page{
+  background:url("images/background.jpg");
+  background-size:100%;
+}
+
 ::before,
 ::after {
   --tw-content: '';
